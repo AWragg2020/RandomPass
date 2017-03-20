@@ -68,7 +68,7 @@ int main(int argc, char** argv)
 char *generateRandomPass(char *input_length, char *mode, char *conf){
 
 	int input_length_int;
-	char *ret;
+	char *ret=" ";
 	if(strcmp(input_length,"1")==0 || strcmp(input_length,"2")==0 || strcmp(input_length,"3")==0){
 
 		if(strcmp(input_length,"1")==0) input_length_int=1;
